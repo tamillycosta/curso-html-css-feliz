@@ -1,0 +1,50 @@
+.container{
+    background-color: #0A1362;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 7px solid #000;
+    padding: 10px 20px;
+     }
+ 
+   #logo{
+     width: 60px;
+     height: 60px;
+     top: 10px;
+     left: 20px;
+   }
+ 
+      .link,.buton{
+         margin-right: 30px;
+         font-size: 20px;
+         font-weight: bold;
+         color: #fff
+         ;
+     }
+ 
+     .link:before{
+       display: inline-block;
+       content: "";
+       width: 10px;
+       height: 10px;
+      background-color:#A9D2DF;
+       margin-right: 10px;}
+        
+ 
+   .buton{
+     display: inline-block;
+     background-color: #A9D2DF;
+     color: #0A1362;
+     text-decoration: none;
+     padding: 20px;
+     margin-right: 0px;
+     transition: 0.5s;
+     box-shadow: 5px 5px 0px #000;
+     border-radius: 7px;}
+ 
+ .buton:hover{
+   color:#a6adeaba;
+   background: transparent;
+   transform: scale(1.5) rotate(360deg);
+   cursor: grab;
+   box-shadow: none;
+ }
