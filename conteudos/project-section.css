@@ -1,0 +1,37 @@
+.my-projects{
+    height: 470px;
+    background-color: #000;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 10px solid #1b2373;
+}
+
+.my-projects .main-title{
+    text-align: center;
+}
+
+.img-position{
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-icon{
+    width: 220px;
+    height: 220px;
+}
+
+.projects-icon:first-child{
+   margin-left: 160px;
+}
+
+.projects-icon:last-child{
+    margin-right: 160px;
+    box-shadow: 8px 8px 0px #fff;
+}
+
+.projects-icon:nth-child(2){
+    background-color:#1b2373;
+    box-shadow: 8px 8px 0px #fff;
+}
+
