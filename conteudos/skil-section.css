@@ -3,31 +3,32 @@
 
  /*skils*/
   
- .section
+ .section-skils
  {
    background-color: #0A1362;
    padding-top: 60px;
    text-align: center;
 
 }
-.section .titulo-skils{
+ .titulo-skils{
  color: #fff;
+ font-family:"Press Start 2P";
  font-size: 40px;
- font-family: "Press Start 2P"
+
 }
 
 
-.section-2{
+.section-skils-2{
  height:730px;
  background-color:#0A1362;
  padding-top: 55px;
  display: flex;
- justify-content: space-evenly;
- align-items: center;
+ justify-content: center;
  padding-bottom: 65px;
  border-bottom: 10px solid #A9D2DF;
-
 }
+
+
 .box-skils{
  height: 480px;
  width: 480px;
@@ -35,15 +36,19 @@
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- align-items: baseline;
 }
+.box-skils:nth-child(even){
+  margin-left: 50px;
+}
+
 
 .skil-name{
  font-family:"Press Start 2P";
  font-size: 20px;
  color: #fff;
- margin-left: 100px;
+ margin-left: 90px;
  position: absolute;
+ margin-top: 10px;
  
 }
 
@@ -54,9 +59,6 @@
  width:80.16px ;
  height: 90px;
  position: absolute;
-
- 
-
 }
 
 .itens-skils .progress-bar{
