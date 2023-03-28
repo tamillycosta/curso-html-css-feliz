@@ -11,18 +11,25 @@
 }
 
 .img-position{
-    margin-top: 128px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .projects-icon{
-    width: 220px;
-    height: 220px;
+    width: 280px;
+    height:280px ;
+    background-position: center;
 }
 
 .projects-icon:first-child{
    margin-left: 160px;
+   background-color:#054b60;
+   background-image: url("../img/logo-firedlabs.png");
+   background-repeat: no-repeat;
+   background-size:210px 240px;
+   box-shadow: 8px 8px 0px #fff;
 }
 
 .projects-icon:last-child{
@@ -30,8 +37,11 @@
     box-shadow: 8px 8px 0px #fff;
 }
 
-.projects-icon:nth-child(2){
-    background-color:#1b2373;
+.projects-icon:nth-child(2)
+{
+    background-image: url("../img/logo-collabcode.png");
+    background-repeat: no-repeat;
+    background-size:245px 245px;
+    background-color: #232a68;
     box-shadow: 8px 8px 0px #fff;
 }
-

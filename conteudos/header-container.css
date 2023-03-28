@@ -1,4 +1,4 @@
-.container{
+.header-container{
     background-color: #0A1362;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
      left: 20px;
    }
  
-      .link,.buton{
+      .link,.main-buton{
          margin-right: 30px;
          font-size: 20px;
          font-weight: bold;
@@ -30,7 +30,7 @@
        margin-right: 10px;}
         
  
-   .buton{
+   .main-buton{
      display: inline-block;
      background-color: #A9D2DF;
      color: #0A1362;
@@ -41,7 +41,7 @@
      box-shadow: 5px 5px 0px #000;
      border-radius: 7px;}
  
- .buton:hover{
+ .main-buton:hover{
    color:#a6adeaba;
    background: transparent;
    transform: scale(1.5) rotate(360deg);

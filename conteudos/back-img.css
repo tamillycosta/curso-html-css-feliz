@@ -1,5 +1,5 @@
 /*Titulo*/
-.background{
+.background-img{
     background-image: url("../img/wp4676582-4k-pc-wallpapers.jpg");
    background-size: cover;
    background-repeat: none;
@@ -53,7 +53,7 @@
     
   }
   
-  .b1{
+  .second-btn{
     color: #fff;
     background-color: #0A1362;
     width: 170px;
@@ -67,7 +67,7 @@
   font-size: 20px;
   transition: 0.8s;}
   
-  .b1:hover{
+  .second-btn:hover{
     background-color: #A9D2DF;
   color:#0A1362;}
   
