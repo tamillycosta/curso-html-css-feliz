@@ -1,0 +1,136 @@
+.about-container{
+    text-align: center;
+    height: 780px;
+    background-color: #0A1362;
+    padding-top: 82px;
+    border-bottom: 10px  solid #A9D2DF  ;
+}
+
+.carrocel{
+display:flex;
+       margin-top: 188px;
+       margin-bottom: 50px;
+       justify-content: space-evenly;
+      position: relative
+  }
+
+.date::after{
+    height: 40px;
+    border-right: 4px dashed #000000;
+    content: "";
+    transform: translate(-53px,75%);
+    position:absolute
+    }
+
+
+
+ .carrocel .carrocel-btn{
+    display: inline-block;
+   width: 50px;
+Height:50px;
+background-color: #A9D2DF;
+transform: translateY(217%);
+box-shadow: 5px 5px 0px #000;
+cursor: pointer;
+position: absolute;
+right: 12px;
+ }
+
+ .carrocel-btn.-left{
+    left: 12px;
+}
+
+  .carrocel-btn::after{
+    display: inline-block;
+    border-top:15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff; 
+content: "";
+margin-top: 5px;
+}
+
+
+
+.carrocel-btn.-left::after{
+    transform: rotate(180deg);
+}
+/*linha do tempo*/
+.empresas-positon::before{
+    content: "";
+    height: 5px;
+    width: 95%;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top:30px;
+    left:40px
+}
+.carrocel::before{
+    content: '';
+    width: 100px;
+   border: 2.5px dashed #000;
+    display: block;
+    position: absolute;
+right: 97%;
+top: 30px;
+}
+
+.carrocel::after{
+    content: '';
+    width: 70px;
+   border: 2.5px dashed #000;
+    display: block;
+    position: absolute;
+left: 95%;
+top: 30px;}
+
+.date{
+    font-weight: 400px;
+    font-family:"Press Start 2P";
+    font-size: 25px;
+    color: #A9D2DF;
+}
+
+/*img com variações */
+
+.size{
+   height: 140px;
+   padding-right: 20px;
+   padding-left: 20px;
+   background-color: #CEB02A;
+   border: 5px solid #000;
+   margin-top: 40px; 
+   display: flex;
+   align-items: center;}
+
+
+.size.-azul{
+background-color:#A9D2DF;
+padding-left: 20px;
+padding-right: 20px;}
+
+.img-carrocel-passaro
+{height: 114px;}
+
+.size.-caelum
+{
+    padding:0;
+    background-color: transparent;
+    border: none;
+}
+   
+    
+/**/
+
+.descripition{
+    color: #fff;
+font-size: 30px;
+font-family: "Fira Code";
+margin: 70px 18px;
+margin-left: 80px;
+margin-right: 80px;
+line-height: 39px;
+letter-spacing: 2px;
+text-align: justify;
+}
+
