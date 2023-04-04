@@ -1,0 +1,81 @@
+.last-section{
+    background-color:#371976; ;
+    height: 700px;
+    position: relative;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.last-section .main-title{
+    text-align: center;
+}
+
+.footer-style{
+    background-color: #3A4042;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100px;
+position: absolute;
+top:690px
+}
+
+.logo-position{
+    display: flex;
+    justify-content: space-between;
+    width: 215px;
+    align-items: center;
+}
+
+.form-position{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-itens{
+    display: flex;
+    flex-direction:column;
+    width: 1360px;
+    margin-left: 100px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Fira Code';
+}
+#email{
+    position: absolute;
+    top: 180px;
+}
+
+#Nome{
+    position: absolute;
+}
+
+#mensagem{
+    position: absolute;
+    top:290px
+}
+
+.form-itens .size{
+    height: 40px;
+    background-color: #fff;
+}
+
+.form-itens .size.-mensagem{
+    height: 200px;
+ margin-top: 60px;
+
+}
+
+ .form-itens .second-btn.-footer{
+    padding: 20px;
+    width: 1360px;
+top: 540px;
+position: absolute;
+font-size: 30px;
+padding-top: 10px;
+background-color: #A9D2DF;
+height: 60px;
+left: 100px
+ }
