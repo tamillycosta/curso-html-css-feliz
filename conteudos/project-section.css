@@ -21,6 +21,14 @@
     width: 280px;
     height:280px ;
     background-position: center;
+    transition: 0.5s;
+}
+.img-position:hover :not(:hover){
+    opacity: 0.5;
+}
+
+.projects-icon:hover{
+scale: 1.1;
 }
 
 .projects-icon:first-child{

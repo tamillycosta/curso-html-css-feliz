@@ -4,6 +4,7 @@
     background-color: #0A1362;
     padding-top: 82px;
     border-bottom: 10px  solid #A9D2DF  ;
+    position: relative;
 }
 
 .carrocel{
@@ -11,8 +12,9 @@ display:flex;
        margin-top: 188px;
        margin-bottom: 50px;
        justify-content: space-evenly;
-      position: relative
-  }
+      position: relative;
+      overflow: hidden;
+  }  
 
 .date::after{
     height: 40px;
@@ -24,27 +26,35 @@ display:flex;
 
 
 
- .carrocel .carrocel-btn{
+  .carrocel-btn{
     display: inline-block;
    width: 50px;
 Height:50px;
 background-color: #A9D2DF;
-transform: translateY(217%);
-box-shadow: 5px 5px 0px #000;
-cursor: pointer;
 position: absolute;
-right: 12px;
+box-shadow: 5px 5px 0px #000;
+cursor: grab;
+right: 40px;
+top:110px
  }
 
  .carrocel-btn.-left{
-    left: 12px;
+    left: 40px;
+    display: inline-block;
+   width: 50px;
+Height:50px;
+background-color: #A9D2DF;
+top: 425px;
+box-shadow: 5px 5px 0px #000;
+cursor: pointer;
+position: absolute;
 }
 
   .carrocel-btn::after{
     display: inline-block;
     border-top:15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff; 
+    border-left: 15px solid #fff; 
 content: "";
 margin-top: 5px;
 }
@@ -55,33 +65,23 @@ margin-top: 5px;
     transform: rotate(180deg);
 }
 /*linha do tempo*/
-.empresas-positon::before{
+.carrocel::before{
     content: "";
     height: 5px;
-    width: 95%;
+    width: calc(100% - 80px) ;
     background-color: #000;
     display: block;
     position: absolute;
-    top:30px;
-    left:40px
+    left:40px;
+    top:30px
 }
-.carrocel::before{
-    content: '';
-    width: 100px;
-   border: 2.5px dashed #000;
-    display: block;
-    position: absolute;
-right: 97%;
-top: 30px;
-}
+
 
 .carrocel::after{
     content: '';
-    width: 70px;
-   border: 2.5px dashed #000;
-    display: block;
+    width: 99%;
+   border: 3px dashed #000;
     position: absolute;
-left: 95%;
 top: 30px;}
 
 .date{
@@ -134,3 +134,15 @@ letter-spacing: 2px;
 text-align: justify;
 }
 
+.itens{
+ 
+  width: 88%;
+  overflow: hidden;
+ 
+ 
+}
+.elementes{
+    display: flex;
+    justify-content: space-evenly;
+   transition: transform 100ms ease-in-out;
+}
