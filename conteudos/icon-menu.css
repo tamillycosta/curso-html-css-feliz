@@ -9,3 +9,10 @@
     image-rendering: pixelated;
     box-shadow: 5px 5px 0px #000;
 }
+
+@media (min-width: 980px) {
+    .header-container > .icon-menu{
+        display:none
+    }
+}
+    
