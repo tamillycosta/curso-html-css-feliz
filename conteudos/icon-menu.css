@@ -10,9 +10,17 @@
     box-shadow: 5px 5px 0px #000;
 }
 
-@media (min-width: 980px) {
-    .header-container > .icon-menu{
-        display:none
-    }
+ .header-container .Icon-close{
+    font-size: 35px;
+    color: #A9D2DF;
+    text-decoration: none;
+   font-family: 'Press Start 2P';
+   position: absolute;
+right: 16px;
+top: 16px;
+transition: transform 0.5s linear;
 }
-    
+
+ .header-container .Icon-close:hover{
+transform:scale(1.4);
+ }
