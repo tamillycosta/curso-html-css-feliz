@@ -34,12 +34,12 @@ background-color: #A9D2DF;
 position: absolute;
 box-shadow: 5px 5px 0px #000;
 cursor: grab;
-right: 40px;
+right: 20px;
 top:110px
  }
 
  .carrocel-btn.-left{
-    left: 40px;
+    left: 20px;
     display: inline-block;
    width: 50px;
 Height:50px;
